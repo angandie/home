@@ -1,0 +1,87 @@
+/*These are the element selectors*/
+
+html {
+	background: lightblue;
+	color: #1C658C;
+	font-family: calibri, verdana, helvetica;
+	font-size: large;
+}
+
+img {
+	border: 3px solid #1C658C;
+	display: block;
+	margin: auto;
+}
+
+h1 {
+	display: block;
+	text-align: center;
+	background-color: #EEEEEE;
+	font-size: 30px;
+	border: 3px solid;
+	padding: 10pt;
+}
+
+
+/*These are the class selectors*/
+
+/*This class defines boxes of text with full 100% width size, and 1.5 spacing*/
+.Info {
+	background-color: #EEEEEE;
+	border: 3px solid #1C658C;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 1%;
+	line-height: 1.5;
+}
+
+/*This class defines boxes of information with 50% width, 1.5 spacing and aligned to the left*/
+.InfoLeft {
+	background-color: #EEEEEE;
+	border: 3px solid #1C658C;
+	padding: 20px;
+	margin: 1%;
+	line-height: 1.5;
+	width: 44%;
+	float: left;
+}
+
+/*This class defines boxes of information with 50% width, 1.5 spacing and aligned to the right*/
+.InfoRight {
+	background-color: #EEEEEE;
+	border: 3px solid #1C658C;
+	padding: 20px;
+	margin: 1%;
+	line-height: 1.5;
+	height: 50%;
+	width: 44%;
+	float: right;
+}
+
+
+/*IDs*/
+
+/*This ID defines the banner image at the top of every webpage. It is necessary because the styling differs from all other images in this website*/
+#Banner {
+	border: none;
+	width: 100%;
+}
+
+/*This ID defines the header of links at the top of every webpage*/
+#LinksHeader {
+	text-align: center;
+	padding: 1%;
+}
+
+#EffectsHuman {
+	height: 200px;
+}
+
+/*This ID defines the h2 element in the Marine Pollution webpage.  It is an ID, rather than a class because it is the only header with no information attached in the same block.*/ 
+#SeperateHeader {
+	background-color: #EEEEEE;
+	border: 3px solid;
+	padding: 10pt;
+	margin: 1%;
+	width: 42%;
+}
